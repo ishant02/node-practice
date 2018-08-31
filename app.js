@@ -1,10 +1,10 @@
 const fs= require('fs');
 /* const data= fs.readFileSync('file.txt',{encoding:'utf-8'});
 console.log(data);
-console.log("End of the program"); */
+console.log("End of the program");
 
-
- fs.readFile('file.md', {encoding:'utf-8'}, (err, data) =>{
+return false; */
+ fs.readFile('file.txt', {encoding:'utf-8'}, (err, data) =>{
 	 if(err){
 		 return console.log("Some error", err);
 	 }
@@ -14,7 +14,7 @@ console.log("End of the program"); */
 console.log("End of the program");
 
 
-
+return false;
 /* console.log("Starting App.js");
 const yargs= require('yargs');
 const notes = require('./notes/note.js');
